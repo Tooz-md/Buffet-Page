@@ -11,7 +11,7 @@
 
 :root {
     --main-font: 'Source Sans Pro', sans-serif;
-    --secondary-font: 'Her Von Mullerhoff', cursive;
+    --secondary-font: 'Herr Von Muellerhoff', cursive;
     --body-font: 'Cabin', sans-serif;
     --main-font-color-dark: #252525;
     --secondary-font-color: #c59d5f;
@@ -148,3 +148,22 @@ header {
 }
 
 /* hero */
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: url("images/hero.jpg")no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.sub-headline {
+    font-size: 8.5rem;
+    font-family: var(--secondary-font);
+    color: var(--secondary-font-color);
+    font-weight: 100;
+    line-height: .4;
+    letter-spacing: 2px;
+}
